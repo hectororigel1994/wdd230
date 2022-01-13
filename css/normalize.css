@@ -38,13 +38,13 @@
    */
   
   h1 {
-    font-family: 'Roboto', sans-serif !important;
+    font-family: 'Roboto', sans-serif;
     font-size: 2em;
     margin: 0.67em 0;
   }
 
   p {
-    font-family: 'Be Vietnam Pro', sans-serif !important;
+    font-family: 'Be Vietnam Pro', sans-serif;
   }
   
   /* Grouping content
