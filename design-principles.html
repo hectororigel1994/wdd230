@@ -183,6 +183,65 @@ body {font-family: "Lato", sans-serif}
         </div>
     </section>
 
+    <script>
+  
+  
+  
+        $(&#39;.owl-carousel&#39;).owlCarousel({
+          lazyLoad:true,
+            margin:20,
+            stagePadding:0,
+          dots: false,
+              responsiveClass:true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true,
+              autoplay: false,
+                      loop:true
+                },
+              400:{
+                    items:1,
+                      autoplay: false,
+                    nav:true,
+                      loop:true
+                },
+                600:{
+                    items:1,
+                      autoplay: false,
+                    nav:true,
+                      loop:true
+                },
+                1000:{
+                    items:3,
+                    nav:true,
+                      autoplay: true,
+                      loop:false,
+                      autoplayHoverPause:true,
+                      rewind: true
+                      
+                }
+            }
+        });
+        
+          var owl = $(&#39;.owl-carousel&#39;);
+        owl.owlCarousel();
+        // Go to the next item
+        $(&#39;.owl-next&#39;).click(function() {
+            owl.trigger(&#39;next.owl.carousel&#39;);
+        })
+        // Go to the previous item
+        $(&#39;.owl-prev&#39;).click(function() {
+            // With optional speed parameter
+            // Parameters has to be in square bracket &#39;[]&#39;
+            owl.trigger(&#39;prev.owl.carousel&#39;, [300]);
+        });
+          
+          
+        
+          
+        </script>
+
 
 </body>
 </html>
