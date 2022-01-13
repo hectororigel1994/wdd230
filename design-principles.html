@@ -215,7 +215,7 @@ body {font-family: "Lato", sans-serif}
   
   
   
-        $(&#39;.owl-carousel&#39;).owlCarousel({
+        $(.owl-carousel).owlCarousel({
           lazyLoad:true,
             margin:20,
             stagePadding:0,
@@ -252,17 +252,17 @@ body {font-family: "Lato", sans-serif}
             }
         });
         
-          var owl = $(&#39;.owl-carousel&#39;);
+          var owl = $(.owl-carousel);
         owl.owlCarousel();
         // Go to the next item
-        $(&#39;.owl-next&#39;).click(function() {
-            owl.trigger(&#39;next.owl.carousel&#39;);
+        $(.owl-next).click(function() {
+            owl.trigger(next.owl.carousel);
         })
         // Go to the previous item
-        $(&#39;.owl-prev&#39;).click(function() {
+        $(.owl-prev).click(function() {
             // With optional speed parameter
             // Parameters has to be in square bracket &#39;[]&#39;
-            owl.trigger(&#39;prev.owl.carousel&#39;, [300]);
+            owl.trigger(prev.owl.carousel, [300]);
         });
           
           
@@ -273,8 +273,8 @@ body {font-family: "Lato", sans-serif}
 <script>
     wow = new WOW(
       {
-          boxClass:     &#39;wow&#39;,      // default
-          animateClass: &#39;animated&#39;, // change this if you are not using animate.css
+          boxClass:     wow,      // default
+          animateClass: animated, // change this if you are not using animate.css
           offset:       0,          // default
           mobile:       true,       // keep it on mobile
           live:         true        // track if element updates
