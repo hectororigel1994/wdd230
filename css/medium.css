@@ -27,8 +27,8 @@ h3{text-align: center; color:cornsilk;}
 
 @media (min-width: 1024px){
 
-    .col-1{width:100%;}
-    .col-2{width: 100%;}
+    .col-1{width:33.3%;}
+    .col-2{width: 33.3%;}
     h3{text-align: center; color:cornsilk;}
 }
 
