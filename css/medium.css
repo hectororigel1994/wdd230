@@ -9,7 +9,7 @@
     
     .col-1{width:100%;}
     .col-2{width: 100%;}
-    
+    #square{background-color: #3a4958; border-radius: 25px;}
     }
 
 
@@ -23,6 +23,7 @@ h3{text-align: center; color:#fff;}
 
 .col-1{width:100%;}
 .col-2{width: 100%;}
+#square{background-color: #3a4958; border-radius: 25px;}
 
 }
 
@@ -37,7 +38,13 @@ h3{text-align: center; color:#fff;}
 
     .col-1{width:50%;}
     .col-2{width: 100%;}
-    
+    #square{background-color: #3a4958;
+        border-radius: 25px;
+        display: inline-block;
+        width: min-content;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;}
     }
 
 @media (min-width: 1024px){
@@ -47,6 +54,7 @@ h3{text-align: center; color:#fff;}
     .col-1{width:33.3%;}
     .col-2{width: 33.3%;}
     h3{text-align: center; color:cornsilk;}
+    #square{background-color: #3a4958; border-radius: 25px; display: inline-block;}
 }
 
 .custom-color{background-color: #0a2032; padding-top: 20px;}
@@ -68,4 +76,4 @@ h3{text-align: center; color:#fff;}
         margin-left: auto;
     }
 
-    #square{background-color: #3a4958; border-radius: 25px;}
+  
