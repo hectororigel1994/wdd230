@@ -1,4 +1,4 @@
-@media (min-width: 32.5em){
+@media (min-width: 500px){
 
 h1{color:blue; font-family: 'Roboto', sans-serif; font-size: 20px; text-align: center;}
 
@@ -6,12 +6,13 @@ p{color:chocolate; font-size: 12px; font-family: 'Be Vietnam Pro', sans-serif; t
 
 h3{text-align: center; color:cornsilk;}
 
-
+.col-1{width:100%;}
+.col-2{width: 100%;}
 
 }
 
 
-@media (min-width: 64em){
+@media (min-width: 768px){
 
     h1{color:red; font-family: 'Roboto', sans-serif; font-size: 25px; text-align: center;}
     
@@ -19,14 +20,15 @@ h3{text-align: center; color:cornsilk;}
 
     h3{text-align: center; color:cornsilk;}
 
-    col-1{width:20%;}
-    col-2{width: 100%;}
+    .col-1{width:20%;}
+    .col-2{width: 100%;}
     
     }
 
-@media (min-width: 75em){
+@media (min-width: 1024px){
 
-    col-1{width:100%;}
+    .col-1{width:100%;}
+    .col-2{width: 100%;}
     h3{text-align: center; color:cornsilk;}
 }
 
