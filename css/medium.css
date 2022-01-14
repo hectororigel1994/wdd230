@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 450px){
+@media only screen and (max-width: 490px) {
 
     h1{color:rgb(255, 255, 255); font-family: 'Roboto', sans-serif; font-size: 20px; text-align: center;}
     
