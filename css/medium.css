@@ -1,10 +1,10 @@
 @media (min-width: 500px){
 
-h1{color:blue; font-family: 'Roboto', sans-serif; font-size: 20px; text-align: center;}
+h1{color:rgb(255, 255, 255); font-family: 'Roboto', sans-serif; font-size: 20px; text-align: center;}
 
 p{color:chocolate; font-size: 12px; font-family: 'Be Vietnam Pro', sans-serif; text-align: justify; padding-top: 20px;}
 
-h3{text-align: center; color:cornsilk;}
+h3{text-align: center; color:#fff;}
 
 .col-1{width:100%;}
 .col-2{width: 100%;}
@@ -18,7 +18,7 @@ h3{text-align: center; color:cornsilk;}
     
     p{color:rgb(0, 0, 0); font-size: 16px; font-family: 'Be Vietnam Pro', sans-serif; text-align: justify; padding-top: 20px;}
 
-    h3{text-align: center; color:cornsilk;}
+    h3{text-align: center; color:#fff;}
 
     .col-1{width:50%;}
     .col-2{width: 100%;}
@@ -26,6 +26,8 @@ h3{text-align: center; color:cornsilk;}
     }
 
 @media (min-width: 1024px){
+
+    h1{color:red; font-family: 'Roboto', sans-serif; font-size: 25px; text-align: center;}
 
     .col-1{width:33.3%;}
     .col-2{width: 33.3%;}
