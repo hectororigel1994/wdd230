@@ -100,3 +100,11 @@ width: 50px;
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+
+
+.logo{
+  
+    width: 50px;
+        right: 100px;
+        position: relative;
+    }
