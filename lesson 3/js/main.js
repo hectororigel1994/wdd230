@@ -1,3 +1,5 @@
+
+
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 const navLink = document.querySelectorAll(".nav-link");
@@ -45,11 +47,10 @@ $(document).ready(function(){
   });
 });
 
-
 /*wow animations*/
 
 
-wow = new WOW(
+  wow = new WOW(
     {
         boxClass:     'wow',      // default
         animateClass: 'animated', // change this if you are not using animate.css
@@ -59,3 +60,5 @@ wow = new WOW(
       }
     )
    wow.init();
+
+
