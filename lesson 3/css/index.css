@@ -11,5 +11,12 @@ font-size: 40px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.titles{
+
+text-align: center;
 
 }
