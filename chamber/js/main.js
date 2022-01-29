@@ -115,4 +115,8 @@ datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 /*End time*/
 
-
+/*Last Modified*/
+document.querySelector(
+	"#lastModified"
+).textContent = `Last Modification: ${document.lastModified}`;
+/*Last modified*/

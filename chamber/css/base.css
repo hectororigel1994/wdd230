@@ -198,4 +198,10 @@ aside {
 }
 /*End time*/
 
+/*Last modified*/
+#lastModified {
+	text-align: center;
+	font-size: smaller;
+}
+/*End last modified*/
 
