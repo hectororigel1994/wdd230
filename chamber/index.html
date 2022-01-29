@@ -88,6 +88,7 @@
 
 <script>
 
+// select the elements to manipulate (output to)
 const datefield = document.querySelector("date");
 const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
 
@@ -103,6 +104,7 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 
 datefield.innerHTML = `<em>${fulldate}</em>`;
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
 </script>
 <!-- End Navigation -->
 
