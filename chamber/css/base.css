@@ -199,9 +199,18 @@ aside {
 /*End time*/
 
 /*Last modified*/
+main {
+	margin: 0;
+	border: 1px solid #bbb;
+	padding: 0.5rem;
+	width: 760px;
+	background-color: #abe;
+}
+
 #lastModified {
 	text-align: center;
 	font-size: smaller;
 }
+
 /*End last modified*/
 
