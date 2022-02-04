@@ -15,13 +15,15 @@ function compute(){
         btn.setAttribute("id", "btn");
         btn.setAttribute("class", "btn");
         btn.setAttribute("onclick", "removeDummy()");
-            document.getElementById("myBtn").addEventListener("click", function() {
+	
+	x.setAttribute("id", "div2");
+           
       x.appendChild(t);
      x.appendChild(btn); document.getElementById("div1").appendChild(x);
-            });
+            
         }
     
     function removeDummy() {
-     var elem = document.getElementById('div1');
+     var elem = document.getElementById('div2');
      elem.parentNode.removeChild(elem);
     }
