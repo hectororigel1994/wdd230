@@ -375,16 +375,22 @@ header span{
 /*Main section*/
 .main-title{
 	text-align: center;
-
+	font-family: Arial, sans-serif;
 }
+
 
 .main-title-second{
 	text-align: center;
+	font-family: Arial, sans-serif;
 	
 }
 
 .main-text{
 	text-align: center;
 	font-size: 15px;
+	font-family: 'Sansita', sans-serif;
+}
+
+
 }
 /*End main section*/
