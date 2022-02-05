@@ -384,6 +384,11 @@ header span{
 	background-image: linear-gradient(to bottom right, #0079e5 , #00c1fa , #640070, #fd003b);
 }
 
+.jumbotron {
+
+    color: inherit;
+    background-color: #eee0 !important;
+}
 
 .responsive-image{
 
