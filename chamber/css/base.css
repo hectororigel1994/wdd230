@@ -29,6 +29,8 @@
     
     /*Hamburger menu*/
 
+
+
     /*Navigation*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 
@@ -114,12 +116,13 @@ a {
     color: #482ff7;
 }
 
+/*End navigation*/
 
-
+body{
+	font:16px/1.6 Arial,  sans-serif;
+}
 
 /*Footer*/
-
-/* Footer */
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
 
 *{
@@ -127,13 +130,6 @@ a {
 	margin:0;
 }
 
-html{
-	background-color: #eaf0f2;
-}
-
-body{
-	font:16px/1.6 Arial,  sans-serif;
-}
 
 header{
 	text-align: center;
@@ -337,32 +333,7 @@ footer{
 	}
 
 }
-
-/*End footer*/
-
-/*Time*/
-date,
-aside {
-	margin: 0.5rem;
-	border: 1px solid #bbb;
-	padding: 0.75rem;
-	background-color: #eee;
-}
-/*End time*/
-
-/*Last modified*/
-main {
-	margin: 0;
-	border: 1px solid #bbb;
-	padding: 0.5rem;
-	width: 760px;
-	background-color: #abe;
-}
-
-#lastModified {
-	text-align: center;
-	font-size: smaller;
-}
+/* Footer */
 
 /*End last modified*/
 
