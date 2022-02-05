@@ -427,13 +427,18 @@ header span{
 	text-align: center;
 	font-size: 15px;
 	font-family: 'Sansita', sans-serif;
-	color:rgb(54, 54, 54);
+	color:#e0ac1c;
 }
 
 .initial-col{
 
 margin-top:80px;
 
+}
+
+.row {
+margin-right: 0px !important;
+margin-left: 0px !important;
 }
 
 /*End main section*/
