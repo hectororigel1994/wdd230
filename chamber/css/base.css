@@ -373,6 +373,13 @@ header span{
 /*End last modification*/
 
 /*Main section*/
+
+.main-section{
+	width: 100%;
+	background-image: linear-gradient(to bottom right, #0079e5 , #00c1fa , #640070, #fd003b);
+
+}
+
 .main-title{
 	text-align: center;
 	font-family: Arial, sans-serif;
