@@ -422,4 +422,11 @@ header span{
 	font-family: 'Sansita', sans-serif;
 }
 
+.main-text{
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Sansita', sans-serif;
+	color:#fff;
+}
+
 /*End main section*/
