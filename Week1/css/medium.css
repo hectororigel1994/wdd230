@@ -47,15 +47,7 @@ h3{text-align: center; color:#fff;}
         margin-left: auto;}
     }
 
-@media (min-width: 1024px){
 
-    h1{color:red; font-family: 'Roboto', sans-serif; font-size: 25px; text-align: center;}
-
-    .col-1{width:33.3%;}
-    .col-2{width: 33.3%;}
-    h3{text-align: center; color:cornsilk;}
-    #square{background-color: #3a4958; border-radius: 25px; display: inline-block;}
-}
 
 .custom-color{background-color: #0a2032; padding-top: 20px;}
 
