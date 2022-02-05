@@ -59,7 +59,7 @@ animation-duration:2s; -webkit-animation-duration:2s; -moz-animation-duration:2s
 -moz-animation-delay:0.3s;-ms-animation-delay:0.3s; }
 .item .carousel-desc{color:#fff; text-align:center;}
 .item  h2{font-size:50px; animation-delay:1.5s;animation-duration:1s; }
-.item  p{animation-delay:2.5s;animation-duration:1s; width:50%; margin:auto;}
+.item  p{animation-delay:2.5s;animation-duration:1s; width:50%; margin:auto; font-size: 20px;}
 
 .item2 .carousel-img img , .item2.active .carousel-img img{max-height:300px;}
 .item2.active .carousel-img img.animated{visibility:visible; opacity:1; transition:all 0.3s ease; animation-duration:3s; animation-delay:0.3s}
