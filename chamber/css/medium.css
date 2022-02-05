@@ -32,13 +32,6 @@
 /*Hamburger Menu*/
 
 /*Footer*/
-@media (max-width:768px){
-	#footer h5 {
-    padding-left: 0;
-    border-left: transparent;
-    padding-bottom: 0px;
-    margin-bottom: 10px;
-}
-}
+
 
 /*End footer*/
