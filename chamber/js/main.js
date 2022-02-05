@@ -113,9 +113,3 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 datefield.innerHTML = `<em>${fulldate}</em>`;
 
 /*End time*/
-
-/*Last Modified*/
-document.querySelector(
-	"#lastModified"
-).textContent = `Last Modification: ${document.lastModified}`;
-/*Last modified*/
