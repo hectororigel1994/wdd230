@@ -16,7 +16,7 @@
     
     @media screen and (min-width:1024px){
     
-        h1{color:red; font-family: 'Roboto', sans-serif; font-size: 25px; text-align: center;}
+        h1{color:#0072e3; font-family: 'Roboto', sans-serif; font-size: 25px; text-align: center;}
     
         .col-1{width:33.3%;}
         .col-2{width: 33.3%;}
