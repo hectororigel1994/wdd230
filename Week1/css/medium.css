@@ -38,14 +38,17 @@ h3{text-align: center; color:#fff;}
 
     .col-1{width:50%;}
     .col-2{width: 100%;}
+    
     #square{background-color: #3a4958;
         border-radius: 25px;
         display: inline-block;
         width: min-content;
         display: block;
         margin-right: auto;
-        margin-left: auto;}
+        margin-left: auto;
     }
+    
+}
 
 
 
