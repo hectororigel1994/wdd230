@@ -24,27 +24,15 @@
         h3{text-align: center; color:cornsilk;}
         #square{background-color: #3a4958; border-radius: 25px; display: inline-block;}
 
-        .footer-distributed {
+        .footer-distributed{
             background-color: #2c292f;
             box-sizing: border-box;
             width: 100%;
             text-align: left;
-            font: bold 16
-        px
-         sans-serif;
-            padding: 50
-        px
-         50
-        px
-         60
-        px
-         50
-        px
-        ;
-            margin-top: 80
-        px
-        ;
-            position: fixed;
+            font: bold 16px sans-serif;
+            padding: 50px 50px 60px 50px;
+            margin-top: 80px;
+            position: fixed;    
             bottom: 0;
         }
 
