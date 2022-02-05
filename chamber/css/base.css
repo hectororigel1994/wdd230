@@ -381,7 +381,7 @@ header span{
 
 .custom-col{
 
-	background-image: linear-gradient(to bottom right, #0079e5 , #00c1fa , #640070, #fd003b);
+	background: linear-gradient(to bottom right, #0079e5 , #00c1fa , #640070, #fd003b);
 }
 
 .jumbotron {
