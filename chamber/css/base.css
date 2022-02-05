@@ -372,3 +372,19 @@ header span{
 }
 /*End last modification*/
 
+/*Main section*/
+.main-title{
+	text-align: center;
+
+}
+
+.main-title-second{
+	text-align: center;
+	
+}
+
+.main-text{
+	text-align: center;
+	font-size: 15px;
+}
+/*End main section*/
