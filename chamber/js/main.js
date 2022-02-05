@@ -1,4 +1,4 @@
-/*Collapsable menu*/
+/* Collapsable menu */
 
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
@@ -18,7 +18,7 @@ function closeMenu() {
 }
 
 
-/*Smooth scrolling */
+/* Smooth scrolling */
 
 
 
