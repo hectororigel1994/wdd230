@@ -432,13 +432,19 @@ header span{
 
 .initial-col{
 
-margin-top:80px;
+
 
 }
 
 .row {
 margin-right: 0px !important;
 margin-left: 0px !important;
+}
+
+.custom-button{
+
+
+
 }
 
 /*End main section*/
