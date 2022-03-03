@@ -10,3 +10,5 @@ fetch(requestURL)
   });
 
   const prophets = jsonObject['prophets'];
+
+  document.getElementById('div').innerHTML= '<h1>(${requestURL.lenght})</h1>'
