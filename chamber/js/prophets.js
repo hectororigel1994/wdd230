@@ -1,4 +1,4 @@
-const requestURL = '/chamber/js/prophets.json';
+const requestURL = '/js/prophets.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
