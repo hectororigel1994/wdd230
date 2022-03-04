@@ -12,7 +12,7 @@ fetch('https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.
             var mainContainer = document.getElementById("myData");
             for (var i = 0; i < data.length; i++) {
                 var div = document.createElement("div");
-                div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
+                div.innerHTML = 'Name: ' + data[i].name + ' ' + data[i].lastName;
                 mainContainer.appendChild(div);
             }
         }
