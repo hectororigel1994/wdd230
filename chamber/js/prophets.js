@@ -1,4 +1,4 @@
-fetch('latter-day-prophets.json')
+fetch('people.json')
             .then(function (response) {
                 return response.json();
             })
@@ -9,7 +9,7 @@ fetch('latter-day-prophets.json')
                 console.log('error: ' + err);
             });
         function appendData(data) {
-            var mainContainer = document.getElementById("div");
+            var mainContainer = document.getElementById("myData");
             for (var i = 0; i < data.length; i++) {
                 var div = document.createElement("div");
                 div.innerHTML = 'Name: ' + data[i].firstName + ' ' + data[i].lastName;
