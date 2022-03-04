@@ -88,7 +88,7 @@ fetch("https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.
 .then(response => response.json)
 .then(data => {
 console.log (data.prophets )
-document.querySelector('#myData').innerHTML = data.name
+document.querySelector('#myData').innerHTML = data.prophets
 
 })
 
