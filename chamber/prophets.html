@@ -66,17 +66,15 @@ fetch(requestURL)
   portrait.setAttribute('alt', 'Portait of ' + prophet.name + ' ' + prophet.lastname);
   portrait.setAttribute('loading', 'lazy');
 
-  // Add/append the section(card) with the h2 element
-  card.appendChild(h2);
-  card.appendChild(portrait);
+   // Add/append the section(card) with the h2 element
+   card.appendChild(card);
+   card.appendChild(h2);
+   card.appendChild(portrait);
 
   // Add/append the existing HTML div with the cards class with the section(card)
   cards.appendChild(card);
-  cards.append(section);
-  cards.append(h2)
-
-  document.body.insertBefore(card, h2, portrait);
-
+  cards.appendChild(h2);
+  cards.appendChild(portrait);
 }
 /*
 fetch("https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json")
