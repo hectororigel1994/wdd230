@@ -74,7 +74,7 @@
   <h1>Latter-day Prophets</h1>
 </header>
 <main>
-  <div class="cards"></div>
+  <div class="cards" id="cards"></div>
   <div id="myData"></div>
 </main>
 <footer>
@@ -86,7 +86,6 @@
 
 
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
-const cards = document.querySelector('.cards');
 
 fetch(requestURL)
   .then(function (response) {
@@ -120,6 +119,8 @@ fetch(requestURL)
 
   // Add/append the existing HTML div with the cards class with the section(card)
   cards.appendChild(card);
+  const cards = document.querySelector('#cards');
+
 }
 /*
 fetch("https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json")
