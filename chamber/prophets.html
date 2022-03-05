@@ -66,8 +66,22 @@ fetch(requestURL)
   let portrait = document.createElement('img');
 let order = ``;
 
+switch (prophet.order)
+{
+case 1:
+order = `${prophet.order}st`;
+break;
+case 2:
+order = `${prophet.order}nd`;
+break;
+case 3:
+order = `${prophet.order}rd`;
+break;
+default:
+order = `${prophet.order}th`;
+}
 if (prophet.order === 1 ){
-    order = `${prophet.order}st`;
+    
 }else if (prophet.order === 2 ){
     order = `${prophet.order}nd`;
 }else if (prophet.order === 3 ){
