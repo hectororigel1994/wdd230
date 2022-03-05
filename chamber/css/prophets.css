@@ -24,7 +24,7 @@ h2{
 
 .cards {margin-left: 1rem;
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(240px, 1ft));
+grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 .cards section:nth-child(even) {
@@ -38,4 +38,9 @@ grid-template-columns: repeat(auto-fit, minmax(240px, 1ft));
 section img {
     width: 100%;
     height: auto;
+}
+
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
