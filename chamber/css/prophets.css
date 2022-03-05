@@ -36,15 +36,13 @@ grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 @media only screen and ( max-width: 600px ) {
-    .cards{
-
-        .cards {
+    .cards {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             grid-gap: 10px;
             grid-auto-rows: minmax(100px, auto);
         }
-    }
+    
 }
 .cards section:nth-child(even) {
     background-color: #eee;
