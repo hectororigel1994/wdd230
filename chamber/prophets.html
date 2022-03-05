@@ -64,6 +64,18 @@ fetch(requestURL)
   let card = document.createElement('section');
   let h2 = document.createElement('h2');
   let portrait = document.createElement('img');
+let order = ``;
+
+if (prophet.order === 1 ){
+    order = `${prophet.order}st`;
+}else if (prophet.order === 2 ){
+    order = `${prophet.order}nd`;
+}else if (prophet.order === 3 ){
+    order = `${prophet.order}rd`;
+}else {
+    order = `${prophet.order}th`;
+}
+
 
   // Change the textContent property of the h2 element to contain the prophet's full name
   
