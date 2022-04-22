@@ -1,0 +1,44 @@
+.title {
+    float: right;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 900;
+
+}
+
+header{
+    
+    background-color: #37a;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-radius: 25px;
+    padding-left: 20px;
+
+}
+
+img {
+
+    max-width: 400px;
+
+}
+
+main{
+    text-align: center;
+}
+
+footer{
+    
+    background-color: #37a;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-radius: 25px;
+    padding-left: 20px;
+
+}
+
+body{
+    width: auto;
+    height: auto;
+}
