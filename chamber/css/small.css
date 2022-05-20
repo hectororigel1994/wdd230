@@ -1,0 +1,19 @@
+.navbar {
+    white-space: nowrap;
+    transition: background 250ms ease-in;
+}
+
+.nav-item a{
+    color: black;
+    margin: 15px;
+}
+
+.dropdown-menu {
+    overflow: hidden;
+}
+
+.dropdown-menu a:hover {
+    max-width: auto;
+    background-color: deepskyblue;
+    color: ghostwhite;
+}
