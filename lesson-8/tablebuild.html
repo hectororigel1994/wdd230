@@ -1,37 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Lesson 3</title>
+    
+<head>
+<title>Lesson 8</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-
 <link rel="stylesheet" href="css/main.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
 <body>
 
-    <table style="width:100%">
-        <span id="title">ACME Wildwest</span>
+    <table class="center">
+        <section class="header"></section>
+        <h1 class="title">ACME Wildwest</h1>
         <tr>
-          <th>Company</th>
-          <th>Contact</th>
-          <th>Country</th>
+          <th>Period</th>
+          <th>Sales</th>
+          <th>Sales Goal</th>
         </tr>
-        <tr>
-          <td>Alfreds Futterkiste</td>
-          <td>Maria Anders</td>
-          <td>Germany</td>
+        <tr class="first-row">
+          <td>August</td>
+          <td>$3,590</td>
+          <td>$4,000</td>
         </tr>
-        <tr>
-          <td>Centro comercial Moctezuma</td>
-          <td>Francisco Chang</td>
-          <td>Mexico</td>
+        <tr class="second-row">
+          <td>September</td>
+          <td>$4,420</td>
+          <td>$5,000</td>
         </tr>
+        <tr class="first-row">
+            <td>October</td>
+            <td>$4,870</td>
+            <td>$5,000</td>
+          </tr>
+          <tr class="second-row">
+            <td>November</td>
+            <td>$8,610</td>
+            <td colspan="1" style="background-color: #7fb9c2;">$7,500</td>
+          </tr>
+          <tr class="first-row">
+            <td>Black Friday</td>
+            <td colspan="2">$3,200</td>
+          </tr>
+          <tr class="second-row">
+            <td>December</td>
+            <td>$6,820</td>
+            <td>$7,500</td>
+          </tr>
       </table>
+     <p id="lastModification"></p></span>
 
-
+      <script>
+        const date = new Date(document.lastModified);
+        document.getElementById("lastModification").innerHTML = date + " By Hector Origel";
+        </script>
 
 </body>
 </html>

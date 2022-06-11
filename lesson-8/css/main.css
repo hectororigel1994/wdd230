@@ -1,7 +1,53 @@
 body {
     font-family: 'Ubuntu', sans-serif;
+    background-color: #7fb9c2;
 }
 
-#title{
-    text-align: center;
+table{
+   width: 50%;
 }
+
+.title{
+    text-align: center;
+    color:black
+    
+}
+
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+
+  th{
+      font-size: 30px;
+      color:#fff;
+      text-align: center;
+      background-color: #628ca6;
+  }
+
+  .header{
+      width: 100%;
+      background-color: aquamarine;
+  }
+
+  tr{
+      font-size: 20px;
+  }
+
+  tr.first-row{
+    background-color:#e7f0ed;
+    text-align: center;
+  }
+
+  tr.second-row{
+    background-color:#e7ffed;
+    text-align: center;
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  p{
+      text-align: center;
+  }
+  
