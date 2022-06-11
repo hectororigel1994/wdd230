@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main {
+	margin: 0;
+	border: 1px solid #bbb;
+	padding: 0.5rem;
+	width: 475px;
+	background-color: #abe;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+h1 {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+label,
+input,
+textarea,
+select,
+button {
+	padding: 0.35rem;
+	font-size: 1.1rem;
+}
+
+
+
+input:focus,
+textarea:focus,
+select:focus {
+	background-color: #bed;
+}
+
+p{
+    font-size: 15px;
+    color: rgb(230, 87, 106);
+}
+
+
