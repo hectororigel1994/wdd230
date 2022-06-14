@@ -1,58 +1,58 @@
 {
     "companies": [
       {
-        "name": "Tesla",
-        "address": "23 December ",
-        "phone": "27 June 1844",
+        "name": "Intel",
+        "address": "Torre Esmeralda II, Perif. Blvd. Manuel Ávila Camacho 36, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX",
+        "phone": "001-800-843-4481",
         "length": 14,
         "order": 1,
-        "link": "Vermont",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "link": "https://www.intel.la/content/www/xl/es/homepage.html",
+        "imageurl": "/images/logos/intel.png"
       },
       {
         "name": "Tesla",
-        "address": "23 December 1805",
-        "phone": "27 June 1844",
+        "address": "Calle 4 30 Naucalpan de Juarez, DF 53370",
+        "phone": "01 800 228 8145",
         "length": 30,
         "order": 2,
-        "link": "Vermont",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "link": "https://www.tesla.com/es_mx",
+        "imageurl": "/images/logos/tesla.png"
       },
       {
-        "name": "Tesla",
-        "address": "23 December 1805",
-        "phone": "27 June 1844",
+        "name": "Microsoft",
+        "address": "Vasco de Quiroga 3200, Santa Fe, Zedec Sta Fé, Álvaro Obregón, 01219 Ciudad de México, CDMX",
+        "phone": "+52 55 5267 2000",
         "length": 6,
         "order": 3,
-        "link": "Vermont",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "link": "https://www.microsoft.com/es-mx/contact.aspx",
+        "imageurl": "/images/logos/microsoft.png"
       },
       {
-        "name": "Tesla",
-        "address": "23 December 1805",
-        "phone": "27 June 1844",
+        "name": "Alphabet Inc",
+        "address": " Mountain View, California, USA",
+        "phone": "+1 214-364-7726",
         "length": 9,
         "order": 4,
-        "link": "Vermont",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "link": "https://abc.xyz",
+        "imageurl": "/images/logos/alphabet.png"
       },
       {
-        "name": "Tesla",
-        "address": "23 December 1805",
-        "phone": "27 June 1844",
+        "name": "Nvidia",
+        "address": " Santa Clara, California, USA",
+        "phone": "+1 232 485 9856",
         "length": 3,
         "order": 5,
-        "link": "Vermont",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "link": "https://www.nvidia.com/es-la/",
+        "imageurl": "/images/logos/nvidia.png"
       },
       {
-        "name": "Tesla",
-        "address": "23 December 1805",
-        "phone": "27 June 1844",
+        "name": "AMD",
+        "address": "Santa Clara, California, Estados Unidos",
+        "phone": "00800 12 30 23 40",
         "length": 17,
         "order": 6,
-        "link": "Vermont",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "link": "https://www.amd.com/es",
+        "imageurl": "/images/logos/amd.png"
       },
       {
         "name": "Tesla",
