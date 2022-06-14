@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Chamber</title>
+
+<link rel="icon" type="image/x-icon" href="\wdd230\chamber\images\favicon.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Professional psychological therapy at a low cost">
+
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/prophets.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<!-- carousel -->
+
+<body>
+
+
+
+<header>
+  <h1>Latter-day Prophets</h1>
+</header>
+<main>
+  <div class="cards"></div>
+</main>
+<footer>
+  Your name here | 🏛 BYU-Idaho | WDD 230
+</footer>
+
+
+<script>
+
+
+const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+const cards = document.querySelector('.cards');
+
+fetch(requestURL)
+  .then(function (response) {
+      if (!response.ok){
+      } else {
+            return response.json();
+          }
+      
+    
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    const prophets = jsonObject['prophets'];
+    prophets.forEach(displayProphets);
+  });
+  
+  
+ 
+  function displayProphets(prophet) {
+
+    
+  // Create elements to add to the document
+  let card = document.createElement('section');
+  let h2 = document.createElement('h2');
+  let portrait = document.createElement('img');
+  let dateBirth = document.createElement('p');
+  let placeBirth = document.createElement('p');
+let order = ``;
+
+switch (prophet.order)
+{
+case 1:
+order = `${prophet.order}st`;
+break;
+case 2:
+order = `${prophet.order}nd`;
+break;
+case 3:
+order = `${prophet.order}rd`;
+break;
+default:
+order = `${prophet.order}th`;
+}
+if (prophet.order === 1 ){
+    
+}else if (prophet.order === 2 ){
+    order = `${prophet.order}nd`;
+}else if (prophet.order === 3 ){
+    order = `${prophet.order}rd`;
+}else {
+    order = `${prophet.order}th`;
+}
+
+
+  // Change the textContent property of the h2 element to contain the prophet's full name
+  
+  // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
+  h2.innerHTML = `${prophet.name} <span class="highlight">${prophet.lastname} </span>`;
+  dateBirth.innerHTML = `Date of birth: ${prophet.birthdate}`
+  placeBirth.innerHTML = `Place of birth: ${prophet.birthplace}`
+  portrait.setAttribute('src', prophet.imageurl);
+  portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${order} Latter-day President`);
+  portrait.setAttribute('loading', 'lazy');
+
+  // Add/append the section(card) with the h2 element
+  card.append(h2);
+  card.append(portrait);
+  card.append(placeBirth);
+  card.append(dateBirth);
+
+  // Add/append the existing HTML div with the cards class with the section(card)
+  cards.append(card);
+}
+
+
+/*
+fetch("https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json")
+.then(response => response.json)
+.then(data => {
+console.log (data.prophets )
+document.querySelector('#myData').innerHTML = data.prophets
+
+})*/
+
+</script>
+
+
+<script src="js/prophets.js"></script>
+
+</body>
+</html>
