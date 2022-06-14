@@ -98,7 +98,7 @@ if (company.order === 1 ){
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
   h2.innerHTML = `${company.name} <span class="highlight">${company.lastname} </span>`;
   dateBirth.innerHTML = `Date of birth: $company.birthdate}`
-  placeBirth.innerHTML = `Place of birth: ${prophet.birthplace}`
+  placeBirth.innerHTML = `Place of birth: ${company.birthplace}`
   portrait.setAttribute('src', company.imageurl);
   portrait.setAttribute('alt', `Portait of ${company.name} ${company.lastname} - ${order} Latter-day President`);
   portrait.setAttribute('loading', 'lazy');
