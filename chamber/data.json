@@ -7,7 +7,7 @@
         "length": 14,
         "order": 1,
         "link": "https://www.intel.la/content/www/xl/es/homepage.html",
-        "imageurl": "/images/logos/intel.png"
+        "imageurl": "https://hectororigel1994.github.io/wdd230/chamber/images/logos/intel.png"
       },
       {
         "name": "Tesla",
@@ -16,7 +16,7 @@
         "length": 30,
         "order": 2,
         "link": "https://www.tesla.com/es_mx",
-        "imageurl": "/images/logos/tesla.png"
+        "imageurl": "https://hectororigel1994.github.io/wdd230/chamber/images/logos/tesla.png"
       },
       {
         "name": "Microsoft",
@@ -25,7 +25,7 @@
         "length": 6,
         "order": 3,
         "link": "https://www.microsoft.com/es-mx/contact.aspx",
-        "imageurl": "/images/logos/microsoft.png"
+        "imageurl": "https://hectororigel1994.github.io/wdd230/chamber/images/logos/microsoft.png"
       },
       {
         "name": "Alphabet Inc",
@@ -34,7 +34,7 @@
         "length": 9,
         "order": 4,
         "link": "https://abc.xyz",
-        "imageurl": "https://github.com/hectororigel1994/wdd230/blob/main/chamber/images/logos/alphabet.png"
+        "imageurl": "https://hectororigel1994.github.io/wdd230/chamber/images/logos/alphabet.png"
       },
       {
         "name": "Nvidia",
@@ -52,34 +52,34 @@
         "length": 17,
         "order": 6,
         "link": "https://www.amd.com/es",
-        "imageurl": "/images/logos/amd.png"
+        "imageurl": "https://hectororigel1994.github.io/wdd230/chamber/images/logos/amd.png"
       },
       {
-        "name": "Tesla",
-        "address": "23 December 1805",
-        "phone": "27 June 1844",
+        "name": "Apple",
+        "address": " Cupertino, California, USA",
+        "phone": "55 4739 3890",
         "length": 23,
         "order": 7,
-        "link": "Vermont",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "link": "https://www.apple.com/mx/iphone/",
+        "imageurl": "https://hectororigel1994.github.io/wdd230/chamber/images/logos/apple.png"
       },
       {
-        "name": "Tesla",
-        "address": "23 December 1805",
-        "phone": "27 June 1844",
+        "name": "Oracle",
+        "address": "Austin, Texas, Estados Unidos",
+        "phone": "+1 650-506-7000",
         "length": 6,
         "order": 8,
-        "link": "Vermont",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "link": "https://www.oracle.com/mx/index.html",
+        "imageurl": "https://hectororigel1994.github.io/wdd230/chamber/images/logos/oracle.png"
       },
       {
-        "name": "Tesla",
-        "address": "23 December 1805",
-        "phone": "27 June 1844",
+        "name": "Hewlett Packard",
+        "address": " Palo Alto, California, Estados Unidos",
+        "phone": "+1 888-342-2156",
         "length": 19,
         "order": 9,
-        "link": "Vermont",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+        "link": "https://www.hp.com/mx-es/home.html",
+        "imageurl": "https://hectororigel1994.github.io/wdd230/chamber/images/logos/hp.png"
       }
     ]
   }
