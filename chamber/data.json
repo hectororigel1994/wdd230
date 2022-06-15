@@ -2,7 +2,7 @@
     "companies": [
       {
         "name": "Intel",
-        "address": "Torre Esmeralda II, Perif. Blvd. Manuel Ávila Camacho 36, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX",
+        "address": "Santa Clara, California, USA",
         "phone": "001-800-843-4481",
         "length": 14,
         "order": 1,
@@ -11,7 +11,7 @@
       },
       {
         "name": "Tesla",
-        "address": "Calle 4 30 Naucalpan de Juarez, DF 53370",
+        "address": "Austin, Texas, USA",
         "phone": "01 800 228 8145",
         "length": 30,
         "order": 2,
@@ -20,7 +20,7 @@
       },
       {
         "name": "Microsoft",
-        "address": "Vasco de Quiroga 3200, Santa Fe, Zedec Sta Fé, Álvaro Obregón, 01219 Ciudad de México, CDMX",
+        "address": "Redmond, Washington, USA",
         "phone": "+52 55 5267 2000",
         "length": 6,
         "order": 3,
