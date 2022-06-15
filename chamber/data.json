@@ -34,7 +34,7 @@
         "length": 9,
         "order": 4,
         "link": "https://abc.xyz",
-        "imageurl": "/images/logos/alphabet.png"
+        "imageurl": "https://github.com/hectororigel1994/wdd230/blob/main/chamber/images/logos/alphabet.png"
       },
       {
         "name": "Nvidia",
@@ -43,7 +43,7 @@
         "length": 3,
         "order": 5,
         "link": "https://www.nvidia.com/es-la/",
-        "imageurl": "/images/logos/nvidia.png"
+        "imageurl": "https://hectororigel1994.github.io/wdd230/chamber/images/logos/nvidia.png"
       },
       {
         "name": "AMD",
