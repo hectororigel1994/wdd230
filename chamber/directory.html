@@ -64,6 +64,7 @@ fetch(requestURL)
   let portrait = document.createElement('img');
   let dateBirth = document.createElement('p');
   let placeBirth = document.createElement('p');
+  let createA = document.createElement('a');
 let order = ``;
 
 switch (company.order)
@@ -101,12 +102,16 @@ if (company.order === 1 ){
   placeBirth.innerHTML = `${company.phone}`
   portrait.setAttribute('alt', `Portait of ${company.name} ${company.link} - ${order} Latter-day President`);
   portrait.setAttribute('loading', 'lazy');
+  createA.innerHTML = `${company.link}`
+  createA.setAttribute('class', 'signature');
+  createA.setAttribute('href', company.link, 'class', 'signature');
 
   // Add/append the section(card) with the h2 element
   card.append(h2);
   card.append(portrait);
   card.append(placeBirth);
   card.append(dateBirth);
+  card.append(createA);
 
   // Add/append the existing HTML div with the cards class with the section(card)
   cards.append(card);

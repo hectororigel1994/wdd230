@@ -45,6 +45,9 @@ grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         }
     
 }
+a{
+    padding-bottom: 10px;
+}
 .cards section:nth-child(even) {
     background-color: #eee;
 }
