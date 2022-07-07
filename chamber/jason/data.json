@@ -1,0 +1,77 @@
+{
+  "directoryOfBusiness": [
+  {
+      "name": "Intel",
+      "address": "Santa Clara, California, USA ",
+      "phone": "001-800-843-4481",
+      "website": "https://www.intel.la/content/www/xl/es/homepage.html",
+      "logoImage": "https://hectororigel1994.github.io/wdd230/chamber/images/logos/intel.png",
+      "membership": "Bronze Level"
+  },
+  {
+      "name": "Tesla",
+      "address": "Austin, Texas, USA",
+      "phone": "01 800 228 8145",
+      "website": "https://www.tesla.com/es_mx",
+      "logoImage": "textile_logo.webp",
+      "membership": "https://hectororigel1994.github.io/wdd230/chamber/images/logos/tesla.png"
+  },
+  {
+      "name": "Microsoft",
+      "address": "Redmond, Washington, USA",
+      "phone": "+52 55 5267 2000",
+      "website": "https://www.microsoft.com/es-mx/contact.aspx",
+      "logoImage": "https://hectororigel1994.github.io/wdd230/chamber/images/logos/microsoft.png",
+      "membership": "Gold Level"
+  },
+  {
+      "name": "Alphabet Inc",
+      "address": "Mountain View, California, USA",
+      "phone": "+1 214-364-7726",
+      "website": "https://abc.xyz",
+      "logoImage": "https://hectororigel1994.github.io/wdd230/chamber/images/logos/alphabet.png",
+      "membership": "Bronze Level"
+  },
+  {
+      "name": "Nvidia",
+      "address": "Santa Clara, California, USA",
+      "phone": "+1 232 485 9856",
+      "website": "https://www.nvidia.com/es-la/",
+      "logoImage": "https://hectororigel1994.github.io/wdd230/chamber/images/logos/nvidia.png",
+      "membership": "Gold Level"
+  },
+  {
+      "name": "AMD",
+      "address": "Santa Clara, California, Estados Unidos",
+      "phone": "00800 12 30 23 40",
+      "website": "https://www.amd.com/es",
+      "logoImage": "https://hectororigel1994.github.io/wdd230/chamber/images/logos/amd.png",
+      "membership": "Bronze Level"
+  },
+  {
+      "name": "APPLE",
+      "address": "Cupertino, California, USA",
+      "phone": "55 4739 3890",
+      "website": "https://www.apple.com/mx/iphone/",
+      "logoImage": "https://hectororigel1994.github.io/wdd230/chamber/images/logos/apple.png",
+      "membership": "Silver Level"
+  },
+  {
+      "name": "Oracle",
+      "address": "Austin, Texas, Estados Unidos",
+      "phone": "+1 650-506-7000",
+      "website": "https://www.oracle.com/mx/index.html",
+      "logoImage": "https://hectororigel1994.github.io/wdd230/chamber/images/logos/oracle.png",
+      "membership": "Gold Level"
+  },
+  {
+      "name": "Hewlett Packard",
+      "address": "Palo Alto, California, Estados Unidos",
+      "phone": "+1 888-342-2156",
+      "website": "https://www.hp.com/mx-es/home.html",
+      "logoImage": "https://hectororigel1994.github.io/wdd230/chamber/images/logos/hp.png",
+      "membership": "Bronze Level"
+  }
+]
+}
+
