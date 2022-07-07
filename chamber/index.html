@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This web page will be the home page">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@1&family=Varela+Round&display=swap"
+    rel="stylesheet">
+  <title>Chamber</title>
+</head>
+
+
+
+<body>
+  <!--header-->
+  <header>
+
+    <img src="images/psicoAlviter-logo.png" alt="image of the logo of the chamber">
+
+    <div class="socials">
+      <a href="facebook.com"><img src="images/face_icon.png" alt="icon facebook"></a>
+
+      <a href="twitter.com"><img src="images/twitter_icon.png" alt="twitter facebook"></a>
+    </div>
+
+    <button id="ham">
+      <span>&#9776;</span>
+    </button>
+    <nav>
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory/directory.html">Directory</a></li>
+        <li><a href="discover/discover.html">Discover</a></li>
+        <li><a href="join/join.html">Join Us</a></li>
+      </ul>
+    </nav>
+
+    <div id="date"></div>
+    <div class="pop">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.<button
+        class="close">X</button></div>
+  </header>
+
+  <!--Main-->
+  <main>
+    <div class="holder hero">
+      <picture class="hero_imgs">
+        <source srcset="images/hero2.jpg" media="(min-width: 640px) and (max-width: 959px)">
+        <source srcset="images/hero3.jpg" media="(min-width: 960px)">
+        <img src="images/hero1.jpg" alt="people in a meeting">
+      </picture>
+
+      <h2>Welcome to Seed</h2>
+
+      <div class="btn_main">
+        <span>Join the chamber</span>
+      </div>
+
+    </div>
+
+    <div class="holder event">
+      <h2>Ribbon Cutting</h2>
+      <h3>💎 The Diamond Shack</h3>
+
+      <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 p.m. <span>more info...</span></p>
+
+    </div>
+
+
+    <div class="holder weather">
+      <div class="title_temp">
+        <p class="temp_grid"><span id="temp">&deg;F</span>&deg;F</p>
+      </div>
+
+      <div class="icon_temp">
+        <figure class="icon_weather">
+          <img src ="#" alt ="#" id="weather-icon"/>
+          <figcaption></figcaption>
+        </figure>
+      </div>
+
+      <p class="border_above">Wind speed: <span id="speed"></span> km/hr</p>
+      <p>Wind chill: <span id="chill">N/A</span></p>
+    </div>
+
+
+    <div class="holder news">
+      <h2>news release</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et delectus quasi doloremque, natus ea, doloribus,
+        debitis vero repudiandae sit laborum dolores? Saepe veniam aut ducimus?
+      </p>
+
+    </div>
+
+
+    <div class="holderspot spot">
+      <div class="spot1">
+        <h2>Thankful transport</h2>
+
+        <img src="images/transport.png" alt="logo of transport">
+
+        <p class="division_line">We get it there for you!!</p>
+        <p>hello@thankfultransport.com</p>
+        <p>+999-9999-9999 | website</p>
+
+      </div>
+
+      <div class="spot2">
+        <h2>Code primera</h2>
+
+        <img src="images/school_coding.png" alt="logo of transport">
+
+        <p class="division_line">An after school coding intructional program</p>
+        <p>contact@psicoalviter.com</p>
+        <p>+999-9999-9999 | website</p>
+
+      </div>
+
+      <div class="spot3">
+        <h2>Build A Treefort</h2>
+
+        <img src="images/treefort.png" alt="logo of transport">
+
+        <p class="division_line">Over 1000 plans!</p>
+        <p>info@psicoalviter.com</p>
+        <p>+888-8888-8888 | website</p>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="holder join">
+
+
+      <p>Discover how to join to the chamber of commerce and change the life of your enterprise!</p>
+      <img src="images/join_us.png" alt="">
+
+
+      <div class="btn_join">
+        <a href="#">Join Us!</a>
+      </div>
+
+    </div>
+
+
+  </main>
+
+  <!--footer-->
+  <footer>
+    <div class="part_1_footer">
+      <div class="logo_footer">
+        <img src="images/psicoAlviter-logo.png" alt="">
+
+        <div class="direction">
+          <p class="text_dir">Jardines del Sur, Mexico city 42119
+          </p>
+        </div>
+      </div>
+
+
+      <div class=contacto>
+        <p>info@psicoalviter.com
+          +(52) 55-190-1995
+          📍 Map</p>
+      </div>
+    </div>
+
+
+    <div class="copy">
+      &copy;<span class="year"></span>&#9621; Seed Chamber Commerce&#9621; Hector Origel &#9621; WDD 230 Project&#9621;
+      <span class="date_updated"></span>
+    </div>
+  </footer>
+  <script src="scripts/updated.js"></script>
+
+</body>
+
+</html>
